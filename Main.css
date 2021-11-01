@@ -1,0 +1,49 @@
+body{
+	background:linear-gradient(#55edd1 45%,#ed51c1 65%);
+	    
+	}
+
+	#div1 , #div2
+	{
+		background-color: rgb(116, 108, 235);
+		padding: 50px;
+		float: none;
+		border-radius: 15px;
+		border: 50%;
+	}
+
+.hi{
+    margin-left: 50%;
+}
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 50%;
+}
+#label1 , #label2
+{
+	display: inline-block;
+	margin-left: 50%;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#but1
+{
+margin-left: 50%;
+background-color: cadetblue;	
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maths Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Main.css">
+</head>
+<body>
+   <h3 id="player1_name"></h3> <span id="player1_score"></span>
+   <br>
+   <h3 id="player2_name"></h3> <span id="player2_score"></span>
+   <div class="container">
+  <center>
+      <h3 style = "color:darkkhaki;">Fascinating maths quiz !!!</h3>
+      <h3 id="player_q"></h3>
+      <h3 id="player_ans"></h3>
+      <div id="output" class="col-lg-7"></div>
+      <br>
+      <br>
+      <label>Send you question: <b style="color:orange">
+       Try putting maths question in numeric form   
+      </b>
+      </label>
+      <input type="text" id="word" class="form-control" placeholder="enter the question">
+      <input type="text" id="word1" class="form-control" placeholder="enter the question">
+      <br>
+      <button onclick="send()" style="width: 30%; background-color: lightsalmon;">Send</button>
+  </center>
+   </div>
+   <script src="quiz-main.js"></script>  
+</body>
